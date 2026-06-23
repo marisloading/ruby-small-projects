@@ -8,7 +8,7 @@
 # 
 # don't fully understand why the instructions imply turning strings into arrays and then back to strings?
 # don't know how that would be useful...
-#  OH I GET IT! It's because if you have multiple words as a substring to search for, you might want to separate them into an array using #split using a space as a delimiter
+#  OH I GET IT! It's because if you have multiple words as a substring to search for, you might want to separate them into an array using #split and a space as a delimiter, this would create an array of every word in the sentence provided!
 # 
 # GOOD: allow user to call the function by requesting a sub string check
 # BETTER: allow user to create their own dictionary
