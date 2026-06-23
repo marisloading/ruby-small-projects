@@ -21,3 +21,13 @@ I ended up struggling a lot with this one. Hence why it seems rather rushed. I i
 In the end, it does work. But upon seeing what other student had done for this project, I came to the conclusion that I got frustrated and ended up stubbornly complicating the code. Many other students used the ASCII methods, and I failed to remember or even think about that. Instead, I relied on two arrays of the entire English alphabet, one in lowercase and another is uppercase. This was not ideal.
 
 I hope in my next projects, I am able to think more creatively to solve the problem required of me.
+
+## Sub Strings
+
+This project was much easier than the last one, albeit could be better. It asks for user input by requesting a string to search for in the pre-defined dictionary. This dictionary includes 100 most used words of the English language. I firmly debated whether to allow the user to have more freedom when selecting the dictionary, but I am not sure what other dictionaries to add, so at the moment, the dictionary used is hardcoded.
+
+### Difficulties
+
+I perhaps struggled the most in scoping variables. The dictionary array is provided outside of the method, as I wanted the method to still allow to have a dictionary as a parameter when called. However, I wanted to set the dictionary parameter with the default of the dictionary already provided. This is to avoid a user not input the dictionary they want to search in (which is moot point since they are not provided the choice).
+
+But doing so didn't work, since the dictionary array variable is defined outside of the scope of the method. I chose to turn it into a global variable instead to be able to successfully do what I what, but for future-proof, this is most likely discouraged to avoid polluting the variable space of the script. It's fine to use it right now since the script is quite small.
