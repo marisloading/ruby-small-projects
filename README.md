@@ -1,14 +1,16 @@
 # Basic Ruby Exercises
 
-A small repository with all the small projects done in the Basic Ruby Projects from The Odin Project.
+A small repository with all the small projects done in the Basic Ruby Projects from [The Odin Project](https://www.theodinproject.com/).
 
 ## Goal of these Projects
 
 The goal of these projects is to successfully apply all I've learnt in the Ruby basics to complete small utilities, and understand how to create small features for future applications. The Odin Project has been instrumental in my journey to becoming a programmer, and although I have completed the Javascript course, ruby is providing a bigger challenge despite being overall easier than Javascript.
 
-## The Ceaser Cipher
+## The Caesar Cipher
 
-It does not take input, the script at the moment only does tests with the hard-coded method calls already in it. It takes a string, even strings that are more than one word, and takes a shift input, which will be the number used to shift the English alphabet to encrypt the string provided.
+The [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher) is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions along the alphabet.
+
+My project does not take input, the script at the moment only does tests with the hard-coded method calls already in it. It takes a string, even strings that are more than one word, and takes a shift input, which will be the number used to shift the English alphabet to encrypt the string provided.
 
 Currently it takes numbers that are higher or lower (including negatives) than the amount of letters in the English alphabet, by returning to the beginning of the alphabet (or end, if the shift number was a negative one) and loop around until the amount of letters passed equals the shift number provided.
 
