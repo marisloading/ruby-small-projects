@@ -31,3 +31,11 @@ This project was much easier than the last one, albeit could be better. It asks 
 I perhaps struggled the most in scoping variables. The dictionary array is provided outside of the method, as I wanted the method to still allow to have a dictionary as a parameter when called. However, I wanted to set the dictionary parameter with the default of the dictionary already provided. This is to avoid a user not input the dictionary they want to search in (which is moot point since they are not provided the choice).
 
 But doing so didn't work, since the dictionary array variable is defined outside of the scope of the method. I chose to turn it into a global variable instead to be able to successfully do what I what, but for future-proof, this is most likely discouraged to avoid polluting the variable space of the script. It's fine to use it right now since the script is quite small.
+
+## Stock Picker
+
+This exercise was actually the easiest. I employed the #min and #max methods to get the cheapest day to buy and the most profitable day to sell, taking into account that we can only sell a stock after buying, and if the cheapest day to buy is the last day, then we look for the second cheapest day to buy.
+
+The project does not ask for user input, it only utilises already programmed tests and returns the 2 days (the one to buy and the one to sell, in that order) from the array provided, days which start from 0. I didn't allow user input, because realistically, if the user already knows which days to buy and which days to sell, then they wouldn't need this script. This script would be more beneficial when it comes to scanning patterns in real time with the stock market.
+
+I don't know enough about stock trading to comment on that. Still, a pretty satisfying project, however small.
