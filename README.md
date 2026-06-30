@@ -39,3 +39,11 @@ This exercise was actually the easiest. I employed the #min and #max methods to 
 The project does not ask for user input, it only utilises already programmed tests and returns the 2 days (the one to buy and the one to sell, in that order) from the array provided, days which start from 0. I didn't allow user input, because realistically, if the user already knows which days to buy and which days to sell, then they wouldn't need this script. This script would be more beneficial when it comes to scanning patterns in real time with the stock market.
 
 I don't know enough about stock trading to comment on that. Still, a pretty satisfying project, however small.
+
+## Bubble Sort
+
+For this project, I dived deep into loops and how to control iterations, using keywords like #next and #break, this was a useful project for me, to understand how to iterate through an array while keeping in mind iterations. So much so, that when using the #each method, I only cared about the index, using #each_index instead, since I was changing the array destructively already. Then I placed it inside yet another loop, that runs while the sorted version of the array is not equal to the current version of the array.
+
+I know in the exercise we are told not to use the #sort method, but I am unsure if this counts since I didn't actually use it to sort the array, only to check if it was sorted. Although, if I were to do it again, I would create another function to check if the array is sorted, by scanning through each pair, like we did with the actual sort method we created. Right now, for the project, I assumed that was a bit of an overkill.
+
+Regardless, the results are as expected. The user inputs a numbered list, separated by comma. If by any chance, the user inputs a letter, or a whole list without any commas, the script requests the input again while warning the user about the lack of commas or the inclusion of letters. The script accepts floats and integers, and is able to sort them correctly when given floats and integers in one array.
